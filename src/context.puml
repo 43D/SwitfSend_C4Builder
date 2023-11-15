@@ -3,13 +3,14 @@
 
 LAYOUT_WITH_LEGEND()
 
-Person(pbc, "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
-System(ibs, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
-System_Ext(es, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend")
+Person(motorista, "Motorista", "Um prestador de serviço que utiliza app SwiftSend")
+System(swift, "SwiftSend", "Aplicativo de intermediação entre prestadores de serviços e seus clientes")
+System_Ext(bank, "Sistema de cobraças")
+System_Ext(gps, "Sistema de mapa e geolocalização")
 
-Rel(pbc, ibs, "Uses")
-Rel(es, pbc, "Sends e-mails to")
-Rel(ibs, es, "Sends e-mails", "SMTP")
-Rel(ibs, mbs, "Uses")
+Rel(passageiro, swift, "Usa")
+Rel(motorista, swift, "Atende")
+Rel(swift, bank, "Se utiliza de")
+Rel(swift, gps, "Se utiliza de")
 @enduml
