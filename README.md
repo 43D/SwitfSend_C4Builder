@@ -1,5 +1,7 @@
 # SwiftSend
 
+Requisitos:
+* Node.js
 
 ```bash
 npm i -g c4builder
