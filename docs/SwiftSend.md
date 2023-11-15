@@ -7,6 +7,7 @@
       * [Dynamic Diagram](#Dynamic-Diagram)
       * [Extended Docs](#Extended-Docs)
   * [2 Deployment](#2-Deployment)
+  * [SwitfSend](#SwitfSend)
 
 ---
 
@@ -150,3 +151,9 @@ A deployment diagram allows you to illustrate how containers in the static model
 **Primary elements**: Deployment nodes and containers within the software system in scope.
 
 **Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
+
+## SwitfSend
+
+`\SwitfSend`
+
+[SwiftSend](#SwiftSend)
