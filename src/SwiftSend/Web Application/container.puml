@@ -1,0 +1,22 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte.")
+Person(remetente, "Remetente", "Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto.")
+Container(spa, "Single Page Application", "React Native", "Provem os serviços da SwiftSend para navegadores/desktop PWA.")
+
+Container_Boundary(web, "Web Application") {
+    Component(controlle, "Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
+    Component(view, "View", "Spring Boot Controlle", "Permite que os usuários acessar informações de perfil.")
+    
+
+    Rel(controlle, view, "busca os arquivos")
+    Rel(view, spa, "retorna", "HTTPS")
+}
+
+Rel(passageiro, controlle, "acessa", "HTTPS")
+Rel(remetente, controlle, "acessa", "HTTPS")
+
+@enduml

@@ -1,7 +1,3 @@
-# Web Application
-
-![diagram](container.svg)
-
 **Level 3: Diagrama componente**
 
 **Escopo**: Contêiner de API Application.

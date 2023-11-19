@@ -226,19 +226,14 @@
 **Escopo**: Contêiner de API Application.
 
 **Elementos primários**:
-* Tokens Controller
-* Perfil Controller
-* Serviços SwiftSend Controller
-* Camada de segurança
-* Sistema de pagamento Facade
+* Controller
+* View
 <br>
 
 **Elementos de suporte**:
+* Passageiro
+* Remetente
 * Single Page Application
-* Mobile App Cliente
-* Mobile App Prestador
-* Database
-* Sistema de cobraças
 <br>
 
 **Público-alvo**: arquitetos e desenvolvedores de software.
