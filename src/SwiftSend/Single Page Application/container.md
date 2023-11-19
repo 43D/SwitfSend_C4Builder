@@ -1,7 +1,3 @@
-# Single Page Application
-
-![diagram](container.svg)
-
 **Level 3: Diagrama componente**
 
 **Escopo**: Contêiner de Single Page Application.

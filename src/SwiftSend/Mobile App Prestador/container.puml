@@ -1,0 +1,19 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(prestadorTrans, "Prestadores de serviço de transporte", "Um prestador de serviço que utiliza app SwiftSend, que leva clientes ao seu destino.")
+Person(prestadorEncon, "Prestadores de serviço de encomendas", "Um prestador de serviço que utiliza app SwiftSend, que entrega encomendas de seus clientes.")
+System_Ext(gps, "Sistema de mapa e geolocalização")
+Container(api, "API Application", "Java Spring Boot", "Providência e recebe os dados via JSON/HTTPS.")
+
+Container_Boundary(mobile, "Mobile App Prestador") {
+    Component(tokens, "Tokens Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
+   
+    Component(security, "Camada de segurança", "Spring Bean", "Fornece funcionalidades relacionadas a segurança de contas (senhas, cartões, etc..).")
+
+    Rel(tokens, security, "usa")
+}
+
+@enduml

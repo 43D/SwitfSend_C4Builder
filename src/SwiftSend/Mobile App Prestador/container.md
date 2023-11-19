@@ -1,18 +1,14 @@
-# Single Page Application
-
-![diagram](container.svg)
-
 **Level 3: Diagrama componente**
 
-**Escopo**: Contêiner de Single Page Application.
+**Escopo**: Contêiner de Mobile App Prestador.
 
 **Elementos primários**:
 * 
 <br>
 
 **Elementos de suporte**:
-* Passageiro
-* Remetente
+* Prestadores de serviço de transporte
+* Prestadores de serviço de encomendas
 * Sistema de mapa e geolocalização
 * API Application
 <br>

@@ -21,7 +21,7 @@
 
 **Level 3: Diagrama componente**
 
-**Escopo**: Contêiner de API Application.
+**Escopo**: Contêiner de Web Application.
 
 **Elementos primários**:
 * Controller

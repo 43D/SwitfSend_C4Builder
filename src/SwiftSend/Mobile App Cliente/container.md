@@ -1,10 +1,6 @@
-# Single Page Application
-
-![diagram](container.svg)
-
 **Level 3: Diagrama componente**
 
-**Escopo**: Contêiner de Single Page Application.
+**Escopo**: Contêiner de Mobile App Cliente.
 
 **Elementos primários**:
 * 
