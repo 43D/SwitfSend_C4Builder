@@ -18,30 +18,16 @@
 **Escopo**: O SwiftSend tem como objetivo agenciar serviços alternativos de transporte, como serviços de entrega ou transporte de pessoas.
 
 **Elementos primários**: 
-* **Cliente** (Passageiro/Remetente):
-    Usuário do sistema SwiftSend, ele solícita serviços de entrega e de carona.
-    <br>
+* Cliente (Passageiro/Remetente)
+* Prestadores de serviço (encomendas/transporte)
+* SwiftSend
+<br>
 
-* **Prestadores de serviço** (encomendas/transporte):
-    Usuário do sistema SwiftSend, ele recebe solicitações de trabalhos na sua área.
-    <br>
-
-* **SwiftSend:**
-    Sistema de intermediação de clientes e prestadores de serviços, abrangendo entrega de objetos e transporte de clientes.
-    <br>
-
-* **Sistema Cobraças:**
-    Sistema externo de cobraças.
-    <br>
-
-* **Sistema geolocalização:**
-    Sistema externo de fornecimento de geolocalização .
-    <br>
-
-* **Destinatário:**
-    Usuário externo, receptor final das encomendas.
-    <br>
-
+**Elementos de suporte**: 
+* Sistema Cobraças
+* Sistema geolocalização
+* Destinatário
+<br>
 
 **Público-alvo**: Clientes e Prestadores de serviço
 
@@ -53,20 +39,29 @@
 
 ![diagram](system.svg)
 
-**Level 2: Container diagram**
+**Nível 2: Diagrama de contêiner**
 
-Once you understand how your system fits in to the overall IT environment, a really useful next step is to zoom-in to the system boundary with a Container diagram. A "container" is something like a server-side web application, single-page application, desktop application, mobile app, database schema, file system, etc. Essentially, a container is a separately runnable/deployable unit (e.g. a separate process space) that executes code or stores data.
+**Escopo**: Sistema de software da SwiftSend.
 
-The Container diagram shows the high-level shape of the software architecture and how responsibilities are distributed across it. It also shows the major technology choices and how the containers communicate with one another. It's a simple, high-level technology focussed diagram that is useful for software developers and support/operations staff alike.
+**Elementos primários**: 
+* Web Application
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* API Application
+<br>
 
-**Scope**: A single software system.
+**Elementos de suporte**:
+* Passageiro
+* Remetente
+* Prestadores de serviço de transporte
+* Prestadores de serviço de encomendas
+* Sistema de cobraças
+* Sistema de mapa e geolocalização
+<br>
 
-**Primary elements**: Containers within the software system in scope.
-Supporting elements: People and software systems directly connected to the containers.
-
-**Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
-
-**Notes**: This diagram says nothing about deployment scenarios, clustering, replication, failover, etc.
+**Público-alvo**: Técnicos dentro e fora da equipe de desenvolvimento de software; incluindo arquitetos de software, desenvolvedores e equipe de operações/suporte.
 
 ## API Application
 
