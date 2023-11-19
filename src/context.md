@@ -6,11 +6,12 @@
 * Cliente (Passageiro/Remetente)
 * Prestadores de serviço (encomendas/transporte)
 * SwiftSend
+<br>
 
 **Elementos de suporte**: 
 * Sistema Cobraças
 * Sistema geolocalização
 * Destinatário
-
+<br>
 
 **Público-alvo**: Clientes e Prestadores de serviço
