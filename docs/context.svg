@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="990px" preserveAspectRatio="none" style="width:902px;height:990px;background:#FFFFFF;" version="1.1" viewBox="0 0 902 990" width="902px" zoomAndPan="magnify"><defs/><g><!--MD5=[bae179d0e5161f1a014173854ce9c63c]
+entity passageiro--><g id="elem_passageiro"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="205" x="291" y="7"/><image height="48" width="48" x="369.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="86" x="350.5" y="81.6094">Passageiro</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="391.5" y="99.6582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="323.5" y="117.2676">Um cliente, usuário do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="313" y="134.877">aplicativo SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="301" y="152.4863">solicita serviço de transporte.</text></g><!--MD5=[b0dad76c63f0441bbd717615d99fc741]
+entity remetente--><g id="elem_remetente"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="206" x="531.5" y="7"/><image height="48" width="48" x="610.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="82" x="593.5" y="81.6094">Remetente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="632.5" y="99.6582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="564.5" y="117.2676">Um cliente, usuário do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="554" y="134.877">aplicativo SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="541.5" y="152.4863">solicita entrega de um objeto.</text></g><!--MD5=[75c9ad08cf1613b59a32b509339a7456]
+entity prestadorTrans--><g id="elem_prestadorTrans"><rect fill="#08427B" height="178.6875" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="219" x="7" y="454.5"/><image height="48" width="48" x="92.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="464.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="17" y="529.1094">Prestadores de serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="79" x="77" y="549.2344">transporte</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="114.5" y="567.2832"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="25.5" y="584.8926">Um prestador de serviço que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="19" y="602.502">utiliza app SwiftSend, que leva</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="42" y="620.1113">clientes ao seu destino.</text></g><!--MD5=[9329595eeb507acbe5242d0060d96577]
+entity prestadorEncon--><g id="elem_prestadorEncon"><rect fill="#08427B" height="196.2969" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="219" x="261" y="446"/><image height="48" width="48" x="346.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="456"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="271" y="520.6094">Prestadores de serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="321" y="540.7344">encomendas</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="368.5" y="558.7832"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="279.5" y="576.3926">Um prestador de serviço que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="288" y="594.002">utiliza app SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="274.5" y="611.6113">entrega encomendas de seus</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="344.5" y="629.2207">clientes.</text></g><!--MD5=[4788c6b238f9f2420787aa8c35544856]
+entity destinatario--><g id="elem_destinatario"><rect fill="#686868" height="123.3438" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="191" x="275" y="734"/><image height="48" width="48" x="346.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB6ElEQVR4Xu2YLY+EMBCG9+dWr0aj0Wg0Go1Go0+j8Xdv2uTCvv1gpt0ebHKPuhDaeW4605Z9mJvx4AdXUyTUdd08z+u6flmWZRnHsWkafk9DptAwDPu+f0eAYtu2PEaGWuj5fCIZrBAC2eLBAnRCsEkkxmeaJp7iDJ2QMDdHsLg8SxKFEJaAo8lAXnmuOFIhTMpxxKATebo4UiFknuNo4OniSIXQyRxEA3YsnjGCVEjVXD7yLUAqxBGUyPv/Y4W2beMgGuS7kVQIBycH0fD+oi5pezQETxdHKmQKGk1eQEYldK+jw5GxPfZ9z7Mk0Qnhf1W1m3w//EUn5BDmSZsbR44QQLBEqrBHqOrmSKaQAxdnLArCrxZcM7A7ZKs4ioRq8LFC+NpC3WCBJsvpVw5edm9iEXFuyNfxXAgSwfrFQ1c0iNda8AdejvUgnktOtJQQxmcfFzGglc5WVCj7oDgFqU18boeFSs52CUh8LE8BIVQDT1ABrB0HtgSEYlX5doJnCwv9TXocKCaKbnwhdDKPq4lf3SwU3HLq4V/+WYhHVMa/3b4IlfyikAduCkcBc7mQ3/z/Qq/cTuikhkzB12Ae/mcJC9U+Vo8Ej1gWAtgbeGgFsAMHr50BIWOLCbezvhpBFUdY6EJuJ/QDW0XoMX60zZ0AAAAASUVORK5CYII=" y="744"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="92" x="324.5" y="808.6094">Destinatário</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="368.5" y="826.6582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="289" y="844.2676">Receptor de encomendas.</text></g><!--MD5=[aa34179316c4a8250e089f2e59d58150]
+entity swift--><g id="elem_swift"><rect fill="#1168BD" height="110.5625" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="213" x="407" y="243"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="78" x="474.5" y="269.6094">SwiftSend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="511.5" y="287.6582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="427" y="305.2676">Aplicativo de intermediação</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="417" y="322.877">entre prestadores de serviços</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="466.5" y="340.4863">e seus clientes</text></g><!--MD5=[7e4c127a05bd27e533c47e139fcb3c25]
+entity bank--><g id="elem_bank"><rect fill="#999999" height="40.125" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="179" x="515" y="524"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="159" x="525" y="550.6094">Sistema de cobraças</text></g><!--MD5=[f11baee3137158b194bdaee9ece3526d]
+entity gps--><g id="elem_gps"><rect fill="#999999" height="60.25" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="167" x="729" y="514"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="739" y="540.6094">Sistema de mapa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="115" x="755" y="560.7344">geolocalização</text></g><!--MD5=[53dd54f62d47dff2ad681679d77b03ea]
+link passageiro to swift--><g id="link_passageiro_swift"><path d="M437.87,166.24 C446.67,181.75 455.85,197.9 464.5,213 C468.69,220.32 473.11,227.99 477.5,235.6 " fill="none" id="passageiro-to-swift" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="481.52,242.55,480.1052,234.1239,474.9137,237.1318,481.52,242.55" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="465.5" y="209.457">Solicita um serviço no</text></g><!--MD5=[2e67f4b8df7c14b9bea1449130d44f21]
+link remetente to swift--><g id="link_remetente_swift"><path d="M616.24,166.25 C610.83,182.32 604,198.68 595.5,213 C590.69,221.1 584.95,229.03 578.78,236.57 " fill="none" id="remetente-to-swift" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="573.5,242.82,580.9616,238.6578,576.385,234.7778,573.5,242.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="604.5" y="209.457">Solicita um serviço no</text></g><!--MD5=[60084614648c9c0c216e20e0234f877e]
+link swift to prestadorTrans--><g id="link_swift_prestadorTrans"><path d="M406.85,314.75 C351.04,326.69 283.84,347.63 232.5,384 C208.67,400.88 187.82,424.21 170.62,447.8 " fill="none" id="swift-to-prestadorTrans" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="165.87,454.46,172.9631,449.6968,168.0821,446.2073,165.87,454.46" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="233.5" y="397.457">Disponibiliza um serviço</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="26" x="290.5" y="412.5508">para</text></g><!--MD5=[68328b878dc2d26e266c4156f5e5ee2e]
+link swift to prestadorEncon--><g id="link_swift_prestadorEncon"><path d="M421.79,354.1 C412.08,363.04 403.29,373.02 396.5,384 C386.53,400.13 380.01,418.88 375.82,437.71 " fill="none" id="swift-to-prestadorEncon" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="374.17,445.79,378.7086,438.5511,372.8297,437.3518,374.17,445.79" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="397.5" y="397.457">Disponibiliza um serviço</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="26" x="454.5" y="412.5508">para</text></g><!--MD5=[91aebaf45601abbfa3a3d16b87313ae9]
+link prestadorEncon to destinatario--><g id="link_prestadorEncon_destinatario"><path d="M370.5,642.18 C370.5,670.08 370.5,699.92 370.5,725.73 " fill="none" id="prestadorEncon-to-destinatario" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="370.5,733.96,373.5,725.96,367.5,725.96,370.5,733.96" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="371.5" y="685.457">Entrega a encomenda</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="26" x="422" y="700.5508">para</text></g><!--MD5=[3cb07ccbcf49104fb7508ef0b0df73c4]
+link swift to bank--><g id="link_swift_bank"><path d="M535.16,354.43 C538.98,364.26 542.88,374.42 546.5,384 C564.01,430.37 583.63,484.68 594.98,516.32 " fill="none" id="swift-to-bank" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="597.67,523.86,597.7932,515.3169,592.1455,517.3424,597.67,523.86" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="68" x="558.5" y="404.957">Se utiliza de</text></g><!--MD5=[1ff367de5674f4f8401a0b1b73602f8f]
+link swift to gps--><g id="link_swift_gps"><path d="M594.2,354.07 C608.11,363.85 622.32,374.09 635.5,384 C670.33,410.21 678.86,417.1 711.5,446 C734.1,466.01 758.53,489.43 777.71,508.24 " fill="none" id="swift-to-gps" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="783.48,513.92,779.8661,506.1779,775.6665,510.4632,783.48,513.92" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="68" x="676.5" y="404.957">Se utiliza de</text></g><rect height="104.0469" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="118" x="762" y="870.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="768" y="892.877">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="821" y="892.877"> </text><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="106" x="768" y="895.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="772" y="910.4863">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="106" x="768" y="913.5625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="772" y="928.0957">system</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="106" x="768" y="931.1719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="772" y="945.7051">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="106" x="768" y="948.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="772" y="963.3145">external system</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="874" y1="878.3438" y2="878.3438"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="874" y1="895.9531" y2="895.9531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="874" y1="913.5625" y2="913.5625"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="874" y1="931.1719" y2="931.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="874" y1="948.7813" y2="948.7813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="874" y1="966.3906" y2="966.3906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768" x2="768" y1="878.3438" y2="966.3906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="874" x2="874" y1="878.3438" y2="966.3906"/><!--MD5=[fdde2b749dc8ba4088739d1f0ce90a79]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte.")
+Person(remetente, "Remetente", "Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto.")
+Person(prestadorTrans, "Prestadores de serviço de transporte", "Um prestador de serviço que utiliza app SwiftSend, que leva clientes ao seu destino.")
+Person(prestadorEncon, "Prestadores de serviço de encomendas", "Um prestador de serviço que utiliza app SwiftSend, que entrega encomendas de seus clientes.")
+Person_Ext(destinatario, "Destinatário", "Receptor de encomendas.")
+System(swift, "SwiftSend", "Aplicativo de intermediação entre prestadores de serviços e seus clientes")
+System_Ext(bank, "Sistema de cobraças")
+System_Ext(gps, "Sistema de mapa e geolocalização")
+
+Rel(passageiro, swift, "Solicita um serviço no")
+Rel(remetente, swift, "Solicita um serviço no")
+Rel(swift, prestadorTrans, "Disponibiliza um serviço para")
+Rel(swift, prestadorEncon, "Disponibiliza um serviço para")
+Rel(prestadorEncon, destinatario, "Entrega a encomenda para")
+Rel(swift, bank, "Se utiliza de")
+Rel(swift, gps, "Se utiliza de")
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+
+rectangle "<$person>\n==Passageiro\n\n Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte." <<person>> as passageiro
+rectangle "<$person>\n==Remetente\n\n Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto." <<person>> as remetente
+rectangle "<$person>\n==Prestadores de serviço de transporte\n\n Um prestador de serviço que utiliza app SwiftSend, que leva clientes ao seu destino." <<person>> as prestadorTrans
+rectangle "<$person>\n==Prestadores de serviço de encomendas\n\n Um prestador de serviço que utiliza app SwiftSend, que entrega encomendas de seus clientes." <<person>> as prestadorEncon
+rectangle "<$person>\n==Destinatário\n\n Receptor de encomendas." <<external_person>> as destinatario
+rectangle "==SwiftSend\n\n Aplicativo de intermediação entre prestadores de serviços e seus clientes" <<system>> as swift
+rectangle "==Sistema de cobraças" <<external_system>> as bank
+rectangle "==Sistema de mapa e geolocalização" <<external_system>> as gps
+
+passageiro - ->> swift : **Solicita um serviço no**
+remetente - ->> swift : **Solicita um serviço no**
+swift - ->> prestadorTrans : **Disponibiliza um serviço para**
+swift - ->> prestadorEncon : **Disponibiliza um serviço para**
+prestadorEncon - ->> destinatario : **Entrega a encomenda para**
+swift - ->> bank : **Se utiliza de**
+swift - ->> gps : **Se utiliza de**
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 13:10:57 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

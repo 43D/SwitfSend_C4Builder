@@ -1,0 +1,6 @@
+* [SwiftSend](HOME)
+  * [SwitfSend](SwitfSend/HOME)
+    * [API Application](SwitfSend/API%20Application/HOME)
+    * [Single Page Application](SwitfSend/Single%20Page%20Application/HOME)
+      * [Dynamic Diagram](SwitfSend/Single%20Page%20Application/Dynamic%20Diagram/HOME)
+      * [Extended Docs](SwitfSend/Single%20Page%20Application/Extended%20Docs/HOME)
