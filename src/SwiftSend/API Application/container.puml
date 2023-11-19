@@ -1,0 +1,38 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Container(spa, "Single Page Application", "React Native", "Provem os serviços da SwiftSend para navegadores/desktop PWA.")
+Container(mac, "Mobile App Cliente", "Flutter", "Provem os serviços da SwiftSend para clientes nos mobile.")
+Container(map, "Mobile App Prestador", "Flutter", "Provem os serviços da SwiftSend para Prestadores de serviços nos mobile.")
+Container(db, "Database", "PostgreSQL", "Armazenamento de dados de clientes e prestadores, de serviços solicitados na SwiftSend, logins, etc...")
+System_Ext(bank, "Sistema de cobraças")
+
+Container_Boundary(api, "API Application") {
+    Component(tokens, "Tokens Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
+    Component(profile, "Perfil Controller", "Spring Boot Controlle", "Permite que os usuários acessar informações de perfil.")
+    Component(services, "Serviços SwiftSend Controller", "Spring Boot Controlle", "Permite que os usuários acessa ou crie serviços do SwiftSend.")
+   
+    Component(security, "Camada de segurança", "Spring Bean", "Fornece funcionalidades relacionadas a segurança de contas (senhas, cartões, etc..).")
+    Component(bsfacade, "Sistema de pagamento Facade", "Spring Bean", "Interface dos serviços externos de cobranças de usuario.")
+
+    Rel(tokens, security, "usa")
+    Rel(profile, security, "usa")
+    Rel(services, bsfacade, "se aproveita de")
+    Rel(security, db, "Lê & escreve no", "JDBC")
+    Rel(bsfacade, bank, "Solicita", "JSON/HTTPS")
+}
+
+Rel(spa, tokens, "Solicita", "JSON/HTTPS")
+Rel(spa, profile, "Solicita", "JSON/HTTPS")
+Rel(spa, services, "Solicita", "JSON/HTTPS")
+
+Rel(mac, tokens, "Solicita", "JSON/HTTPS")
+Rel(mac, profile, "Solicita", "JSON/HTTPS")
+Rel(mac, services, "Solicita", "JSON/HTTPS")
+
+Rel(map, tokens, "Solicita", "JSON/HTTPS")
+Rel(map, profile, "Solicita", "JSON/HTTPS")
+Rel(map, services, "Solicita", "JSON/HTTPS")
+@enduml

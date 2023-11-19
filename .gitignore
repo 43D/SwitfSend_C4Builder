@@ -1,3 +1,6 @@
 docs_bk/
-src/SwitfSend/API Application/
-src/SwitfSend/Single Page Application
+src/SwiftSend/Database/
+src/SwiftSend/Mobile App Cliente/
+src/SwiftSend/Mobile App Prestador/
+src/SwiftSend/Single Page Application/
+src/SwiftSend/Web Application/

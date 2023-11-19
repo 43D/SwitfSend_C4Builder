@@ -1,11 +1,13 @@
 # SwiftSend
 
 * [SwiftSend](#SwiftSend)
-  * [SwitfSend](#SwitfSend)
+  * [SwiftSend](#SwiftSend)
     * [API Application](#API-Application)
+    * [Database](#Database)
+    * [Mobile App Cliente](#Mobile-App-Cliente)
+    * [Mobile App Prestador](#Mobile-App-Prestador)
     * [Single Page Application](#Single-Page-Application)
-      * [Dynamic Diagram](#Dynamic-Diagram)
-      * [Extended Docs](#Extended-Docs)
+    * [Web Application](#Web-Application)
 
 ---
 
@@ -31,11 +33,7 @@
 
 **Público-alvo**: Clientes e Prestadores de serviço
 
-## SwitfSend
-
-`\SwitfSend`
-
-[SwiftSend](#SwiftSend)
+## SwiftSend
 
 ![diagram](system.svg)
 
@@ -65,7 +63,79 @@
 
 ## API Application
 
-`\SwitfSend\API Application`
+`\SwiftSend\API Application`
+
+[SwiftSend](#SwiftSend)
+
+![diagram](container.svg)
+
+**Level 3: Diagrama componente**
+
+**Escopo**: Contêiner de API Application.
+
+**Elementos primários**:
+* Tokens Controller
+* Perfil Controller
+* Serviços SwiftSend Controller
+* Camada de segurança
+* Sistema de pagamento Facade
+<br>
+
+**Elementos de suporte:**:
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* Sistema de cobraças
+<br>
+
+**Público-alvo**: arquitetos e desenvolvedores de software.
+
+## Database
+
+`\SwiftSend\Database`
+
+[SwiftSend](#SwiftSend)
+
+![diagram](container.svg)
+
+**Level 3: Component diagram**
+
+Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+
+The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+
+**Scope**: A single container.
+
+**Primary elements**: Components within the container in scope.
+Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+
+**Intended audience**: Software architects and developers.
+
+## Mobile App Cliente
+
+`\SwiftSend\Mobile App Cliente`
+
+[SwiftSend](#SwiftSend)
+
+![diagram](container.svg)
+
+**Level 3: Component diagram**
+
+Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+
+The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+
+**Scope**: A single container.
+
+**Primary elements**: Components within the container in scope.
+Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+
+**Intended audience**: Software architects and developers.
+
+## Mobile App Prestador
+
+`\SwiftSend\Mobile App Prestador`
 
 [SwiftSend](#SwiftSend)
 
@@ -86,7 +156,7 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 ## Single Page Application
 
-`\SwitfSend\Single Page Application`
+`\SwiftSend\Single Page Application`
 
 [SwiftSend](#SwiftSend)
 
@@ -109,38 +179,23 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 ![](2020-01-10-16-21-41.png)
 
-## Dynamic Diagram
+## Web Application
 
-`\SwitfSend\Single Page Application\Dynamic Diagram`
-
-[SwiftSend](#SwiftSend)
-
-![diagram](dynamic.svg)
-
-**Dynamic diagram**
-
-A simple dynamic diagram can be useful when you want to show how elements in a static model collaborate at runtime to implement a user story, use case, feature, etc. This dynamic diagram is based upon a UML communication diagram (previously known as a "UML collaboration diagram"). It is similar to a UML sequence diagram although it allows a free-form arrangement of diagram elements with numbered interactions to indicate ordering.
-
-**Scope**: An enterprise, software system or container.
-
-**Primary and supporting elements**: Depends on the diagram scope; enterprise (see System Landscape diagram), software system (see System Context or Container diagrams), container (see Component diagram).
-
-**Intended audience**: Technical and non-technical people, inside and outside of the software development team.
-
-## Extended Docs
-
-`\SwitfSend\Single Page Application\Extended Docs`
+`\SwiftSend\Web Application`
 
 [SwiftSend](#SwiftSend)
 
-![diagram](class.svg)
+![diagram](container.svg)
 
-![diagram](sequence.svg)
+**Level 3: Component diagram**
 
-Multiple markdowns can be ordered using `<name>.1.md, <name>.2.md .. <name>.<n>.md`
+Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
 
-You can choose where to place a certain diagram by using `![name](<diagram name>.puml)`
+The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
 
-![diagram](ditaa.png)
+**Scope**: A single container.
 
-Feel free to add any additional details necesary.
+**Primary elements**: Components within the container in scope.
+Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+
+**Intended audience**: Software architects and developers.

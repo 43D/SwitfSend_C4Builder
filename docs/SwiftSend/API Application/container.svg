@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1056px" preserveAspectRatio="none" style="width:1063px;height:1056px;background:#FFFFFF;" version="1.1" viewBox="0 0 1063 1056" width="1063px" zoomAndPan="magnify"><defs/><g><!--MD5=[7442f3b126ee602ae02566c1a49e158a]
+cluster api--><g id="cluster_api"><rect height="421" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="724" x="49.15" y="211"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="353.15" y="229.6094">API Application</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="379.65" y="245.582">[Container]</text></g><!--MD5=[638e1c4db3aaadab632220855681d539]
+entity tokens--><g id="elem_tokens"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="219" x="537.65" y="284"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="137" x="578.65" y="310.6094">Tokens Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="123" x="585.65" y="326.582">[Spring Boot Controlle]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="645.15" y="343.752"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="551.65" y="361.3613">Permite que os usuários façam</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="596.15" y="378.9707">login no sistema</text></g><!--MD5=[7acc01a6845e7bd2e8afe94137bb9829]
+entity profile--><g id="elem_profile"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="210" x="292.15" y="284"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="337.65" y="310.6094">Perfil Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="123" x="335.65" y="326.582">[Spring Boot Controlle]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="395.15" y="343.752"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="320.65" y="361.3613">Permite que os usuários</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="302.15" y="378.9707">acessar informações de perfil.</text></g><!--MD5=[862ebe305f068a9a150a38aa6740efca]
+entity services--><g id="elem_services"><rect fill="#85BBF0" height="145.7813" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="192" x="65.15" y="265"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="149" x="84.65" y="291.6094">Serviços SwiftSend</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="76" x="123.15" y="311.7344">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="123" x="99.65" y="327.707">[Spring Boot Controlle]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="159.15" y="344.877"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="84.65" y="362.4863">Permite que os usuários</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="75.15" y="380.0957">acessa ou crie serviços do</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="128.15" y="397.7051">SwiftSend.</text></g><!--MD5=[6f1da96282e479ff2a49312c7753703d]
+entity security--><g id="elem_security"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="216" x="382.15" y="489"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="171" x="404.65" y="515.6094">Camada de segurança</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="453.15" y="531.582">[Spring Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="488.15" y="548.752"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="412.15" y="566.3613">Fornece funcionalidades</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="396.15" y="583.9707">relacionadas a segurança de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="392.15" y="601.5801">contas (senhas, cartões, etc..).</text></g><!--MD5=[3b14b546ed953ae88164ae25ad4fed7b]
+entity bsfacade--><g id="elem_bsfacade"><rect fill="#85BBF0" height="128.1719" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="220" x="65.15" y="488"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="174" x="86.15" y="514.6094">Sistema de pagamento</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="56" x="147.15" y="534.7344">Facade</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="138.15" y="550.707">[Spring Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="173.15" y="567.877"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="79.15" y="585.4863">Interface dos serviços externos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="94.65" y="603.0957">de cobranças de usuario.</text></g><!--MD5=[33573e971ff506c0f246109ca3fd77bd]
+entity spa--><g id="elem_spa"><rect fill="#438DD5" height="125.6563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="201" x="117.65" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="127.65" y="33.6094">Single Page Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="180.15" y="49.582">[React Native]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="216.15" y="66.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="146.65" y="84.3613">Provem os serviços da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="168.65" y="101.9707">SwiftSend para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="130.15" y="119.5801">navegadores/desktop PWA.</text></g><!--MD5=[8a2f435cfe7ca7248e722ece2383999a]
+entity mac--><g id="elem_mac"><rect fill="#438DD5" height="125.6563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="198" x="354.15" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="142" x="382.15" y="33.6094">Mobile App Cliente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="433.15" y="49.582">[Flutter]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="451.15" y="66.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="381.65" y="84.3613">Provem os serviços da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="364.15" y="101.9707">SwiftSend para clientes nos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="430.65" y="119.5801">mobile.</text></g><!--MD5=[464222c64b0d830046b1836b9f1533fe]
+entity map--><g id="elem_map"><rect fill="#438DD5" height="125.6563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="220" x="775.15" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="164" x="803.15" y="33.6094">Mobile App Prestador</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="865.15" y="49.582">[Flutter]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="883.15" y="66.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="813.65" y="84.3613">Provem os serviços da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="785.15" y="101.9707">SwiftSend para Prestadores de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="821.15" y="119.5801">serviços nos mobile.</text></g><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><g id="elem_db"><rect fill="#438DD5" height="143.2656" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="213" x="383.65" y="710"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="454.15" y="736.6094">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="454.15" y="752.582">[PostgreSQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="488.15" y="769.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="397.65" y="787.3613">Armazenamento de dados de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="406.15" y="804.9707">clientes e prestadores, de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="417.15" y="822.5801">serviços solicitados na</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="417.15" y="840.1895">SwiftSend, logins, etc...</text></g><!--MD5=[7e4c127a05bd27e533c47e139fcb3c25]
+entity bank--><g id="elem_bank"><rect fill="#999999" height="40.125" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="179" x="85.65" y="761.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="159" x="95.65" y="788.1094">Sistema de cobraças</text></g><!--MD5=[8e152e72100c915f5216757f35907550]
+link tokens to security--><g id="link_tokens_security"><path d="M607.73,392.22 C587.55,419.48 562.74,452.98 541.12,482.17 " fill="none" id="tokens-to-security" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="536.27,488.72,543.4469,484.0841,538.629,480.5081,536.27,488.72" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="569.15" y="454.457">usa</text></g><!--MD5=[2ab48ffba0bff348d5af2507fbcd32b1]
+link profile to security--><g id="link_profile_security"><path d="M420.5,392.22 C432.3,419.13 446.78,452.13 459.47,481.07 " fill="none" id="profile-to-security" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="462.83,488.72,462.3641,480.1887,456.8693,482.5987,462.83,488.72" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="450.15" y="454.457">usa</text></g><!--MD5=[6a8c571599e584d6de0757200eeefa46]
+link services to bsfacade--><g id="link_services_bsfacade"><path d="M165.91,411.07 C167.38,433.31 168.99,457.77 170.46,479.94 " fill="none" id="services-to-bsfacade" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="170.99,487.99,173.4541,479.809,167.4673,480.206,170.99,487.99" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="87" x="169.15" y="454.457">se aproveita de</text></g><!--MD5=[2f3b256d614db35f96be6b3c1201bf4f]
+link security to db--><g id="link_security_db"><path d="M490.15,615.17 C490.15,641.87 490.15,673.38 490.15,701.69 " fill="none" id="security-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="490.15,709.98,493.15,701.98,487.15,701.98,490.15,709.98" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="491.15" y="661.457">Lê &amp; escreve no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="518.15" y="676.5508">[JDBC]</text></g><!--MD5=[b38b1c84ffc1e58a8495ce3373afa647]
+link bsfacade to bank--><g id="link_bsfacade_bank"><path d="M175.15,616.07 C175.15,661.17 175.15,719.62 175.15,753.31 " fill="none" id="bsfacade-to-bank" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="175.15,761.31,178.15,753.31,172.15,753.31,175.15,761.31" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="195.15" y="661.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="176.15" y="676.5508">[JSON/HTTPS]</text></g><!--MD5=[ebc4cb195505ea7e165d900bfb45ed61]
+link spa to tokens--><g id="link_spa_tokens"><path d="M318.68,126.53 C324.84,128.94 331.02,131.13 337.15,133 C393.83,150.32 557.41,124.13 602.15,163 C634.04,190.7 644.78,237.76 647.83,275.96 " fill="none" id="spa-to-tokens" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="648.37,283.96,650.8205,275.775,644.8343,276.1819,648.37,283.96" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="645.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="626.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[818a6d6800da2213890c8e62866bdbdf]
+link spa to profile--><g id="link_spa_profile"><path d="M257.59,133.1 C270.38,152.97 284.73,175 298.15,195 C316.36,222.15 336.97,251.86 354.65,277.06 " fill="none" id="spa-to-profile" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="359.32,283.71,357.1731,275.4401,352.2647,278.891,359.32,283.71" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="318.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="299.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[7de8fd8f662ebc2d076f291b6ab961e5]
+link spa to services--><g id="link_spa_services"><path d="M117.16,96.03 C82.87,109.88 48.2,131.02 28.15,163 C6,198.33 27.24,235.33 58.76,266.07 " fill="none" id="spa-to-services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="64.75,271.74,60.9899,264.0679,56.8724,268.432,64.75,271.74" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="48.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="29.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[cfa56995f966e305891a38cf14ab9e91]
+link mac to tokens--><g id="link_mac_tokens"><path d="M552.37,76.84 C612.67,86.13 685.3,108.78 724.15,163 C749.15,197.88 728.94,242.17 702.98,277.34 " fill="none" id="mac-to-tokens" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="698.07,283.79,705.2994,279.2364,700.5226,275.6056,698.07,283.79" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="755.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="736.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[ca2d670a7a82af10489e3452f3f36f77]
+link mac to profile--><g id="link_mac_profile"><path d="M406.86,133.05 C401.64,142.67 397.14,152.8 394.15,163 C383.49,199.37 384,241.88 387.29,275.77 " fill="none" id="mac-to-profile" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="388.13,283.75,390.2706,275.4785,384.304,276.1105,388.13,283.75" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="414.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="395.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[afe745b3bb912c7bd6e0769a51104efe]
+link mac to services--><g id="link_mac_services"><path d="M354.14,125.93 C348.13,128.49 342.1,130.87 336.15,133 C272.53,155.72 233.7,114.05 187.15,163 C163.77,187.59 155.78,223.6 154.23,256.49 " fill="none" id="mac-to-services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="153.97,264.78,157.2118,256.8749,151.2146,256.6925,153.97,264.78" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="207.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="188.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[413de8848deb008c81877a950941b07f]
+link map to tokens--><g id="link_map_tokens"><path d="M959.23,133.24 C973.94,152.93 981.29,174.81 968.15,195 C923.31,263.86 836.66,299.57 764.67,317.96 " fill="none" id="map-to-tokens" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="756.86,319.9,765.3471,320.8848,763.9019,315.0615,756.86,319.9" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="994.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="975.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[12ce556b9e6d2013d579f6694604373b]
+link map to profile--><g id="link_map_profile"><path d="M870.06,133.04 C861.05,156.51 846.95,180.93 825.15,195 C796.67,213.38 551,188.95 520.15,203 C485.56,218.75 456.31,249.3 435.02,277.27 " fill="none" id="map-to-profile" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="430.05,283.93,437.2385,279.312,432.4295,275.724,430.05,283.93" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="875.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="856.15" y="191.5508">[JSON/HTTPS]</text></g><!--MD5=[0c7737073e255e7a9035bc32e9d6210c]
+link map to services--><g id="link_map_services"><path d="M774.89,82.29 C697.41,93.91 593.48,117.12 512.15,163 C494.63,172.88 498.58,186.94 480.15,195 C438.38,213.26 316.15,183.07 275.15,203 C249.65,215.4 227.65,236.42 209.97,258.19 " fill="none" id="map-to-services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="204.86,264.65,212.1695,260.2261,207.4583,256.5107,204.86,264.65" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="532.15" y="176.457">Solicita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="513.15" y="191.5508">[JSON/HTTPS]</text></g><rect height="174.4844" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="144" x="897.15" y="866.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="903.15" y="888.7988">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="956.15" y="888.7988"> </text><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="891.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="907.15" y="906.4082">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="909.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="907.15" y="924.0176">system</text><rect fill="#438DD5" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="927.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="907.15" y="941.627">container</text><rect fill="#85BBF0" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="944.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="907.15" y="959.2363">component</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="962.3125"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="907.15" y="976.8457">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="979.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="907.15" y="994.4551">external system</text><rect fill="#B3B3B3" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="997.5313"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="907.15" y="1012.0645">external container</text><rect fill="#CCCCCC" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="903.15" y="1015.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="907.15" y="1029.6738">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="874.2656" y2="874.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="891.875" y2="891.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="909.4844" y2="909.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="927.0938" y2="927.0938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="944.7031" y2="944.7031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="962.3125" y2="962.3125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="979.9219" y2="979.9219"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="997.5313" y2="997.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="1015.1406" y2="1015.1406"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="1035.15" y1="1032.75" y2="1032.75"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.15" x2="903.15" y1="874.2656" y2="1032.75"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1035.15" x2="1035.15" y1="874.2656" y2="1032.75"/><!--MD5=[bf6119f66b68a83ac3c10b1e389951f3]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Container(spa, "Single Page Application", "React Native", "Provem os serviços da SwiftSend para navegadores/desktop PWA.")
+Container(mac, "Mobile App Cliente", "Flutter", "Provem os serviços da SwiftSend para clientes nos mobile.")
+Container(map, "Mobile App Prestador", "Flutter", "Provem os serviços da SwiftSend para Prestadores de serviços nos mobile.")
+Container(db, "Database", "PostgreSQL", "Armazenamento de dados de clientes e prestadores, de serviços solicitados na SwiftSend, logins, etc...")
+System_Ext(bank, "Sistema de cobraças")
+
+Container_Boundary(api, "API Application") {
+    Component(tokens, "Tokens Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
+    Component(profile, "Perfil Controller", "Spring Boot Controlle", "Permite que os usuários acessar informações de perfil.")
+    Component(services, "Serviços SwiftSend Controller", "Spring Boot Controlle", "Permite que os usuários acessa ou crie serviços do SwiftSend.")
+   
+    Component(security, "Camada de segurança", "Spring Bean", "Fornece funcionalidades relacionadas a segurança de contas (senhas, cartões, etc..).")
+    Component(bsfacade, "Sistema de pagamento Facade", "Spring Bean", "Interface dos serviços externos de cobranças de usuario.")
+
+    Rel(tokens, security, "usa")
+    Rel(profile, security, "usa")
+    Rel(services, bsfacade, "se aproveita de")
+    Rel(security, db, "Lê & escreve no", "JDBC")
+    Rel(bsfacade, bank, "Solicita", "JSON/HTTPS")
+}
+
+Rel(spa, tokens, "Solicita", "JSON/HTTPS")
+Rel(spa, profile, "Solicita", "JSON/HTTPS")
+Rel(spa, services, "Solicita", "JSON/HTTPS")
+
+Rel(mac, tokens, "Solicita", "JSON/HTTPS")
+Rel(mac, profile, "Solicita", "JSON/HTTPS")
+Rel(mac, services, "Solicita", "JSON/HTTPS")
+
+Rel(map, tokens, "Solicita", "JSON/HTTPS")
+Rel(map, profile, "Solicita", "JSON/HTTPS")
+Rel(map, services, "Solicita", "JSON/HTTPS")
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+rectangle "==Single Page Application\n//<size:12>[React Native]</size>//\n\n Provem os serviços da SwiftSend para navegadores/desktop PWA." <<container>> as spa
+rectangle "==Mobile App Cliente\n//<size:12>[Flutter]</size>//\n\n Provem os serviços da SwiftSend para clientes nos mobile." <<container>> as mac
+rectangle "==Mobile App Prestador\n//<size:12>[Flutter]</size>//\n\n Provem os serviços da SwiftSend para Prestadores de serviços nos mobile." <<container>> as map
+rectangle "==Database\n//<size:12>[PostgreSQL]</size>//\n\n Armazenamento de dados de clientes e prestadores, de serviços solicitados na SwiftSend, logins, etc..." <<container>> as db
+rectangle "==Sistema de cobraças" <<external_system>> as bank
+
+rectangle "==API Application\n<size:12>[Container]</size>" <<boundary>> as api {
+    rectangle "==Tokens Controller\n//<size:12>[Spring Boot Controlle]</size>//\n\n Permite que os usuários façam login no sistema" <<component>> as tokens
+    rectangle "==Perfil Controller\n//<size:12>[Spring Boot Controlle]</size>//\n\n Permite que os usuários acessar informações de perfil." <<component>> as profile
+    rectangle "==Serviços SwiftSend Controller\n//<size:12>[Spring Boot Controlle]</size>//\n\n Permite que os usuários acessa ou crie serviços do SwiftSend." <<component>> as services
+   
+    rectangle "==Camada de segurança\n//<size:12>[Spring Bean]</size>//\n\n Fornece funcionalidades relacionadas a segurança de contas (senhas, cartões, etc..)." <<component>> as security
+    rectangle "==Sistema de pagamento Facade\n//<size:12>[Spring Bean]</size>//\n\n Interface dos serviços externos de cobranças de usuario." <<component>> as bsfacade
+
+tokens - ->> security : **usa**
+profile - ->> security : **usa**
+services - ->> bsfacade : **se aproveita de**
+security - ->> db : **Lê & escreve no**\n//<size:12>[JDBC]</size>//
+bsfacade - ->> bank : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+}
+
+spa - ->> tokens : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+spa - ->> profile : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+spa - ->> services : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+
+mac - ->> tokens : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+mac - ->> profile : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+mac - ->> services : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+
+map - ->> tokens : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+map - ->> profile : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+map - ->> services : **Solicita**\n//<size:12>[JSON/HTTPS]</size>//
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 13:10:57 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

@@ -1,15 +1,17 @@
 # SwiftSend
 
 * [**SwiftSend**](README.md)
-  * [SwitfSend](SwitfSend/README.md)
-    * [API Application](SwitfSend/API%20Application/README.md)
-    * [Single Page Application](SwitfSend/Single%20Page%20Application/README.md)
-      * [Dynamic Diagram](SwitfSend/Single%20Page%20Application/Dynamic%20Diagram/README.md)
-      * [Extended Docs](SwitfSend/Single%20Page%20Application/Extended%20Docs/README.md)
+  * [SwiftSend](SwiftSend/README.md)
+    * [API Application](SwiftSend/API%20Application/README.md)
+    * [Database](SwiftSend/Database/README.md)
+    * [Mobile App Cliente](SwiftSend/Mobile%20App%20Cliente/README.md)
+    * [Mobile App Prestador](SwiftSend/Mobile%20App%20Prestador/README.md)
+    * [Single Page Application](SwiftSend/Single%20Page%20Application/README.md)
+    * [Web Application](SwiftSend/Web%20Application/README.md)
 
 ---
 
-- [SwitfSend](SwitfSend/README.md)
+- [SwiftSend](SwiftSend/README.md)
 
 ---
 
