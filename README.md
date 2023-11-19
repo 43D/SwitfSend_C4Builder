@@ -1,7 +1,7 @@
 # SwiftSend
 
 **Acesso a documentação:**
-[Acesse aqui](https://github.com/43D/SwitfSend_C4Builder/tree/main/docs)
+[Acesse aqui](https://43d.github.io/SwitfSend_C4Builder/)
 
 <hr>
 
