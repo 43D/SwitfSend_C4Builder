@@ -8,8 +8,8 @@ Person(remetente, "Remetente", "Um cliente, usuário do aplicativo SwiftSend, qu
 Container(spa, "Single Page Application", "React Native", "Provem os serviços da SwiftSend para navegadores/desktop PWA.")
 
 Container_Boundary(web, "Web Application") {
-    Component(controlle, "Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
-    Component(view, "View", "Spring Boot Controlle", "Permite que os usuários acessar informações de perfil.")
+    Component(controlle, "Controller", "PHP Controlle", "Recebe uma solicitação de acesso.")
+    Component(view, "View", "files statics", "Busca e retorna os arquivos estáticos para solicitante.")
     
 
     Rel(controlle, view, "busca os arquivos")
