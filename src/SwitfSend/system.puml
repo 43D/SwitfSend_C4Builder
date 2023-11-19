@@ -1,0 +1,40 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte.")
+Person(remetente, "Remetente", "Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto.")
+Person(prestadorTrans, "Prestadores de serviço de transporte", "Um prestador de serviço que utiliza app SwiftSend, que leva clientes ao seu destino.")
+Person(prestadorEncon, "Prestadores de serviço de encomendas", "Um prestador de serviço que utiliza app SwiftSend, que entrega encomendas de seus clientes.")
+System_Ext(bank, "Sistema de cobraças")
+System_Ext(gps, "Sistema de mapa e geolocalização")
+
+System_Boundary(swift, "SwiftSend") {
+    Container(wa, "Web Application", "PHP", "Disponibiliza páginas estáticas do SPA SwiftSend.")
+    Container(spa, "Single Page Application", "React Native", "Provem os serviços da SwiftSend para navegadores/desktop PWA.")
+    Container(mac, "Mobile App Cliente", "Flutter", "Provem os serviços da SwiftSend para clientes nos mobile.")
+    Container(map, "Mobile App Prestador", "Flutter", "Provem os serviços da SwiftSend para Prestadores de serviços nos mobile.")
+    Container(db, "Database", "PostgreSQL", "Armazenamento de dados de clientes e prestadores, de serviços solicitados na SwiftSend, logins, etc...")
+    Container(api, "API Application", "Java Spring Boot", "Providência e recebe os dados via JSON/HTTP.")
+
+    Rel(api, db, "Lê & Escreve no", "JDBC")
+    Rel(wa, spa, "Disponibiliza")
+    Rel(spa, api, "Consome", "JSON/HTTPS")
+    Rel(mac, api, "Consome", "JSON/HTTPS")
+    Rel(map, api, "Consome", "JSON/HTTPS")
+}
+
+Rel(passageiro, wa, "Acessa o link", "HTTPS")
+Rel(passageiro, spa, "Utiliza dos serviços de")
+Rel(passageiro, mac, "Utiliza dos serviços de")
+Rel(remetente, wa, "Acessa o link", "HTTPS")
+Rel(remetente, spa, "Utiliza dos serviços de")
+Rel(remetente, mac, "Utiliza dos serviços de")
+Rel(prestadorTrans, map, "Utiliza dos serviços de")
+Rel(prestadorEncon, map, "Utiliza dos serviços de")
+Rel(api, bank, "Solicita", "JSON/HTTP")
+Rel(mac, gps, "intrega o")
+Rel(map, gps, "intrega o")
+Rel(spa, gps, "intrega o")
+@enduml

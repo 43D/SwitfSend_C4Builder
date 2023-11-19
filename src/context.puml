@@ -3,14 +3,20 @@
 
 LAYOUT_WITH_LEGEND()
 
-Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend")
-Person(motorista, "Motorista", "Um prestador de serviço que utiliza app SwiftSend")
+Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte.")
+Person(remetente, "Remetente", "Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto.")
+Person(prestadorTrans, "Prestadores de serviço de transporte", "Um prestador de serviço que utiliza app SwiftSend, que leva clientes ao seu destino.")
+Person(prestadorEncon, "Prestadores de serviço de encomendas", "Um prestador de serviço que utiliza app SwiftSend, que entrega encomendas de seus clientes.")
+Person_Ext(destinatario, "Destinatário", "Receptor de encomendas.")
 System(swift, "SwiftSend", "Aplicativo de intermediação entre prestadores de serviços e seus clientes")
 System_Ext(bank, "Sistema de cobraças")
 System_Ext(gps, "Sistema de mapa e geolocalização")
 
-Rel(passageiro, swift, "Usa")
-Rel(motorista, swift, "Atende")
+Rel(passageiro, swift, "Solicita um serviço no")
+Rel(remetente, swift, "Solicita um serviço no")
+Rel(swift, prestadorTrans, "Disponibiliza um serviço para")
+Rel(swift, prestadorEncon, "Disponibiliza um serviço para")
+Rel(prestadorEncon, destinatario, "Entrega a encomenda para")
 Rel(swift, bank, "Se utiliza de")
 Rel(swift, gps, "Se utiliza de")
 @enduml
