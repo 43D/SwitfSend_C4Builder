@@ -1,0 +1,51 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Container(api, "API Application", "Java Spring Boot", "Providência e recebe os dados via JSON/HTTPS.")
+
+Container_Boundary(database, "Database") {
+    Component(pt, "Profile_tokens_dao", "tabela", "Dados de tokens válidos.")
+    Component(pc, "Profile_client_dao", "tabela", "Dados de perfis de usuários. ")
+    Component(pp, "Profile_provider_dao", "tabela", "Dados de perfis de prestadores de serviços.")
+    Component(ppc, "Profile_payment_dao", "tabela", "Dados de pagamento do perfil.")
+    Component(ph, "Profile_history_dao", "tabela", "Dados de históricos de serviços do perfil.")
+    Component(pba, "Profile_banks_accounts_dao", "tabela", "Dados de contas bancarias.")
+    Component(pbw, "Profile_wallet_dao", "tabela", "Dados de liberação financeiras.")
+    Component(service, "Services_dao", "tabela", "Dados de serviçoes da aplicação.")
+    Component(sg, "Services_geolocation_dao", "tabela", "Dados de geolocalização do serviço.")
+    Component(sp, "Services_payment_dao", "tabela", "Dados de status de pagamentos do serviço.")
+    Component(sr, "Services_ranking_dao", "tabela", "Dados de avaliação do serviço.")
+
+    Rel(pt, pc, "relaciona com")
+    Rel(pt, pp, "relaciona com")
+
+    Rel(pc, ppc, "possui")
+    Rel(pc, ph, "possui")
+    Rel(pc, pba, "possui")
+
+    Rel(pp, ph, "possui")
+    Rel(pp, pba, "possui")
+    Rel(pp, pbw, "possui")
+
+    Rel(ph, service, "relaciona")
+
+    Rel(service, sg, "possui")
+    Rel(service, sp, "possui")
+    Rel(service, sr, "possui")
+}
+
+Rel(api, pt, "Lê & Altera", "JDBC")
+Rel(api, pc, "Lê & Altera", "JDBC")
+Rel(api, pp, "Lê & Altera", "JDBC")
+Rel(api, ppc, "Lê & Altera", "JDBC")
+Rel(api, ph, "Lê & Altera", "JDBC")
+Rel(api, pba, "Lê & Altera", "JDBC")
+Rel(api, pbw, "Lê & Altera", "JDBC")
+Rel(api, service, "Lê & Altera", "JDBC")
+Rel(api, sg, "Lê & Altera", "JDBC")
+Rel(api, sp, "Lê & Altera", "JDBC")
+Rel(api, sr, "Lê & Altera", "JDBC")
+
+@enduml

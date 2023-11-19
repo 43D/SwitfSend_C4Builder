@@ -1,7 +1,3 @@
-# Database
-
-![diagram](container.svg)
-
 **Level 3: Diagrama componente**
 
 **Escopo**: Contêiner da Database.

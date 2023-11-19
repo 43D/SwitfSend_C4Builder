@@ -81,7 +81,7 @@
 * Sistema de pagamento Facade
 <br>
 
-**Elementos de suporte:**:
+**Elementos de suporte**:
 * Single Page Application
 * Mobile App Cliente
 * Mobile App Prestador
@@ -99,18 +99,29 @@
 
 ![diagram](container.svg)
 
-**Level 3: Component diagram**
+**Level 3: Diagrama componente**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+**Escopo**: Contêiner da Database.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Elementos primários**:
+* Profile_tokens_dao
+* Profile_client_dao
+* Profile_provider_dao
+* Profile_payment_dao
+* Profile_history_dao
+* Profile_banks_accounts_dao
+* Profile_wallet_dao
+* Services_dao
+* Services_geolocation_dao
+* Services_payment_dao
+* Services_ranking_dao
+<br>
 
-**Scope**: A single container.
+**Elementos de suporte**:
+* API Application
+<br>
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
+**Público-alvo**: arquitetos e desenvolvedores de software.
 
 ## Mobile App Cliente
 
@@ -120,18 +131,27 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 ![diagram](container.svg)
 
-**Level 3: Component diagram**
+**Level 3: Diagrama componente**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+**Escopo**: Contêiner de API Application.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Elementos primários**:
+* Tokens Controller
+* Perfil Controller
+* Serviços SwiftSend Controller
+* Camada de segurança
+* Sistema de pagamento Facade
+<br>
 
-**Scope**: A single container.
+**Elementos de suporte**:
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* Sistema de cobraças
+<br>
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
+**Público-alvo**: arquitetos e desenvolvedores de software.
 
 ## Mobile App Prestador
 
@@ -141,18 +161,27 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 ![diagram](container.svg)
 
-**Level 3: Component diagram**
+**Level 3: Diagrama componente**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+**Escopo**: Contêiner de API Application.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Elementos primários**:
+* Tokens Controller
+* Perfil Controller
+* Serviços SwiftSend Controller
+* Camada de segurança
+* Sistema de pagamento Facade
+<br>
 
-**Scope**: A single container.
+**Elementos de suporte**:
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* Sistema de cobraças
+<br>
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
+**Público-alvo**: arquitetos e desenvolvedores de software.
 
 ## Single Page Application
 
@@ -162,22 +191,27 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 ![diagram](container.svg)
 
-**Level 3: Component diagram**
+**Level 3: Diagrama componente**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+**Escopo**: Contêiner de API Application.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Elementos primários**:
+* Tokens Controller
+* Perfil Controller
+* Serviços SwiftSend Controller
+* Camada de segurança
+* Sistema de pagamento Facade
+<br>
 
-**Scope**: A single container.
+**Elementos de suporte**:
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* Sistema de cobraças
+<br>
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
-
-> Example of included local image
-
-![](2020-01-10-16-21-41.png)
+**Público-alvo**: arquitetos e desenvolvedores de software.
 
 ## Web Application
 
@@ -187,15 +221,24 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 ![diagram](container.svg)
 
-**Level 3: Component diagram**
+**Level 3: Diagrama componente**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+**Escopo**: Contêiner de API Application.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Elementos primários**:
+* Tokens Controller
+* Perfil Controller
+* Serviços SwiftSend Controller
+* Camada de segurança
+* Sistema de pagamento Facade
+<br>
 
-**Scope**: A single container.
+**Elementos de suporte**:
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* Sistema de cobraças
+<br>
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
+**Público-alvo**: arquitetos e desenvolvedores de software.

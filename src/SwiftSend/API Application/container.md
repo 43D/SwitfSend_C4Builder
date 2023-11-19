@@ -10,7 +10,7 @@
 * Sistema de pagamento Facade
 <br>
 
-**Elementos de suporte:**:
+**Elementos de suporte**:
 * Single Page Application
 * Mobile App Cliente
 * Mobile App Prestador

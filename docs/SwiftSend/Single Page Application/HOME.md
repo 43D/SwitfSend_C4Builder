@@ -2,19 +2,24 @@
 
 ![diagram](container.svg)
 
-**Level 3: Component diagram**
+**Level 3: Diagrama componente**
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+**Escopo**: Contêiner de API Application.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Elementos primários**:
+* Tokens Controller
+* Perfil Controller
+* Serviços SwiftSend Controller
+* Camada de segurança
+* Sistema de pagamento Facade
+<br>
 
-**Scope**: A single container.
+**Elementos de suporte**:
+* Single Page Application
+* Mobile App Cliente
+* Mobile App Prestador
+* Database
+* Sistema de cobraças
+<br>
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
-
-> Example of included local image
-
-![](2020-01-10-16-21-41.png)
+**Público-alvo**: arquitetos e desenvolvedores de software.
