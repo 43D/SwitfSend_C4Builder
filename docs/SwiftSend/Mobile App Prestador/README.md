@@ -24,7 +24,13 @@
 **Escopo**: Contêiner de Mobile App Prestador.
 
 **Elementos primários**:
-* 
+* Criar conta
+* Login
+* Aprovar ou recusar serviço
+* Historico de serviços prestados
+* Cancelar serviço
+* Finalizar serviço
+* Perfil do Prestador
 <br>
 
 **Elementos de suporte**:

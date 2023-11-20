@@ -9,11 +9,37 @@ System_Ext(gps, "Sistema de mapa e geolocalização")
 Container(api, "API Application", "Java Spring Boot", "Providência e recebe os dados via JSON/HTTPS.")
 
 Container_Boundary(mobile, "Mobile App Prestador") {
-    Component(tokens, "Tokens Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
-   
-    Component(security, "Camada de segurança", "Spring Bean", "Fornece funcionalidades relacionadas a segurança de contas (senhas, cartões, etc..).")
+    Component(criarConta, "Criar conta", "Permite que os usuários realizem o cadastro no sistema")
+    Component(login, "Login", "Permite que os usuários façam login no sistema")
+    Component(aprovarRecusarServico, "Aprovar ou recusar serviço", "Permite que os usuários aprovem ou recusem solicitações de serviço")
+    Component(historicoServicosPrestados, "Historico de serviços prestados", "Permite que os usuários visualizem o historico de serviços prestados")
+    Component(cancelarServico, "Cancelar serviço", "Permite que os usuários cancelem a solicitação de um serviço")
+    Component(finalizarServico, "Finalizar serviço", "Permite que os usuários indiquem a finalização de um serviço")
+    Component(perfilPrestador, "Perfil do Prestador", "Permite que os usuários visualizem e alterem o cadastro no sistema")
 
-    Rel(tokens, security, "usa")
+    Rel(login, criarConta, "É obrigatorio ")
+    Rel(aprovarRecusarServico, login, "É obrigatorio realizar")
+    Rel(cancelarServico, aprovarRecusarServico, "Utiliza")
+    Rel(finalizarServico, aprovarRecusarServico, "Utiliza")
+    Rel(perfilPrestador, historicoServicosPrestados, "Permite visualizar")
+    Rel(perfilPrestador, login, "Utiliza")
 }
+
+Rel(prestadorEncon, login, "Pode realizar")
+Rel(prestadorEncon, criarConta, "Pode")
+Rel(prestadorEncon, aprovarRecusarServico, "Pode")
+
+Rel(prestadorTrans, aprovarRecusarServico, "Pode")
+Rel(prestadorTrans, login, "Pode realizar")
+Rel(prestadorTrans, criarConta, "Pode")
+
+Rel(login, api, "Consome dados da")
+Rel(criarConta, api, "Envia dados para")
+Rel(historicoServicosPrestados, api, "Consome dado da")
+Rel(perfilPrestador, api, "Manipula dado da")
+Rel(aprovarRecusarServico, api, "Manipula dado da")
+
+Rel(aprovarRecusarServico, gps, "Intrega o")
+
 
 @enduml
