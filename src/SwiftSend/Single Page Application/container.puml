@@ -9,11 +9,46 @@ System_Ext(gps, "Sistema de mapa e geolocalização")
 Container(api, "API Application", "Java Spring Boot", "Providência e recebe os dados via JSON/HTTPS.")
 
 Container_Boundary(spa, "Single Page Application") {
-    Component(tokens, "Tokens Controller", "Spring Boot Controlle", "Permite que os usuários façam login no sistema")
-   
-    Component(security, "Camada de segurança", "Spring Bean", "Fornece funcionalidades relacionadas a segurança de contas (senhas, cartões, etc..).")
+Component(criarConta, "Criar conta", "Permite que os usuários realizem o cadastro no sistema")
+    Component(login, "Login", "Permite que os usuários façam login no sistema")
+    Component(solicitarServicoEncomenda, "Solicitar serviço de encomenda", "Permite que os usuários solicitem serviço de encomenda")
+    Component(metodoPagamento, "Metodo de pagamento", "Permite que os usuários escolham a forma de pagamento")
+    Component(avaliacao, "Avaliar serviço", "Permite que os usuários realizem a avaliação dos serviços prestados")
+    Component(historicoServicos, "Historico de serviços", "Permite que os usuários visualizem o historico de serviços")
+    Component(cancelarServico, "Cancelar serviço", "Permite que os usuários cancelem a solicitação de um serviço")
+    Component(solicitarServicoTranporte, "Solicitar serviço de transporte", "Permite que os usuários solicitem serviço de transporte")
+    Component(perfilCliente, "Perfil do cliente", "Permite que os usuários visualizem o cadastro no sistema")
 
-    Rel(tokens, security, "usa")
+
+    Rel(login, criarConta, "Necessita de")
+    Rel(solicitarServicoEncomenda, login, "É obrigatorio realizar")
+    Rel(solicitarServicoTranporte, login,  "É obrigatorio realizar")
+    Rel(perfilCliente, login, "É obrigatorio realizar")
+
+    Rel(solicitarServicoEncomenda, metodoPagamento, "Utiliza")
+    Rel(solicitarServicoTranporte, metodoPagamento, "Utiliza")
+    Rel(solicitarServicoTranporte, avaliacao, "Pode realizar")
+    Rel(solicitarServicoEncomenda, avaliacao, "Pode realizar")
+    Rel(solicitarServicoEncomenda, cancelarServico, "Permite")
+    Rel(solicitarServicoTranporte, cancelarServico, "Permite")
+    Rel(perfilCliente, historicoServicos, "Permite visualizar")
 }
+
+Rel(passageiro, login, "Pode realizar")
+Rel(passageiro, criarConta, "Pode")
+Rel(passageiro, solicitarServicoTranporte, "Pode")
+
+Rel(remetente, solicitarServicoEncomenda, "Pode")
+Rel(remetente, login, "Pode realizar")
+Rel(remetente, criarConta, "Pode")
+
+Rel(login, api, "Consome dados da")
+Rel(criarConta, api, "Enviar dados para")
+Rel(historicoServicos, api, "Consome dados da")
+Rel(solicitarServicoEncomenda, api, "Enviar dados para")
+Rel(solicitarServicoTranporte, api, "Enviar dados para")
+
+Rel(solicitarServicoEncomenda, gps, "Intrega o")
+Rel(solicitarServicoTranporte, gps, "Intrega o")
 
 @enduml

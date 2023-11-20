@@ -1,10 +1,441 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="616px" preserveAspectRatio="none" style="width:730px;height:616px;background:#FFFFFF;" version="1.1" viewBox="0 0 730 616" width="730px" zoomAndPan="magnify"><defs/><g><!--MD5=[38c27b35aef4eebaf210b1fd39b25fb0]
-cluster spa--><g id="cluster_spa"><rect height="406.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="252" x="472.5" y="7"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="508" y="25.6094">Single Page Application</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="567" y="41.582">[Container]</text></g><!--MD5=[638e1c4db3aaadab632220855681d539]
-entity tokens--><g id="elem_tokens"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="219" x="489" y="61"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="137" x="530" y="87.6094">Tokens Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="123" x="537" y="103.582">[Spring Boot Controlle]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="596.5" y="120.752"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="503" y="138.3613">Permite que os usuários façam</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="547.5" y="155.9707">login no sistema</text></g><!--MD5=[6f1da96282e479ff2a49312c7753703d]
-entity security--><g id="elem_security"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="216" x="490.5" y="271.5"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="171" x="513" y="298.1094">Camada de segurança</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="561.5" y="314.082">[Spring Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="596.5" y="331.252"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="520.5" y="348.8613">Fornece funcionalidades</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="504.5" y="366.4707">relacionadas a segurança de</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="500.5" y="384.0801">contas (senhas, cartões, etc..).</text></g><!--MD5=[bae179d0e5161f1a014173854ce9c63c]
-entity passageiro--><g id="elem_passageiro"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="205" x="7" y="35.5"/><image height="48" width="48" x="85.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="45.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="86" x="66.5" y="110.1094">Passageiro</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="107.5" y="128.1582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="39.5" y="145.7676">Um cliente, usuário do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="29" y="163.377">aplicativo SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="17" y="180.9863">solicita serviço de transporte.</text></g><!--MD5=[b0dad76c63f0441bbd717615d99fc741]
-entity remetente--><g id="elem_remetente"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="206" x="247.5" y="35.5"/><image height="48" width="48" x="326.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="45.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="82" x="309.5" y="110.1094">Remetente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="348.5" y="128.1582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="280.5" y="145.7676">Um cliente, usuário do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="270" y="163.377">aplicativo SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="257.5" y="180.9863">solicita entrega de um objeto.</text></g><!--MD5=[f11baee3137158b194bdaee9ece3526d]
-entity gps--><g id="elem_gps"><rect fill="#999999" height="60.25" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="167" x="26" y="304.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="36" y="331.1094">Sistema de mapa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="115" x="52" y="351.2344">geolocalização</text></g><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
-entity api--><g id="elem_api"><rect fill="#438DD5" height="108.0469" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="220" x="228.5" y="280.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="280.5" y="307.1094">API Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="99" x="289" y="323.082">[Java Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="336.5" y="340.252"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="242.5" y="357.8613">Providência e recebe os dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="283.5" y="375.4707">via JSON/HTTPS.</text></g><!--MD5=[8e152e72100c915f5216757f35907550]
-link tokens to security--><g id="link_tokens_security"><path d="M598.5,169.21 C598.5,197.49 598.5,232.63 598.5,263.14 " fill="none" id="tokens-to-security" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="598.5,271.2,601.5,263.2,595.5,263.2,598.5,271.2" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="599.5" y="237.957">usa</text></g><!--MD5=[20a20107c1bd9cf50353aa84355e52ea]
-link passageiro to remetente--></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1057px" preserveAspectRatio="none" style="width:1901px;height:1057px;background:#FFFFFF;" version="1.1" viewBox="0 0 1901 1057" width="1901px" zoomAndPan="magnify"><defs/><g><!--MD5=[38c27b35aef4eebaf210b1fd39b25fb0]
+cluster spa--><g id="cluster_spa"><rect height="454" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="1238" x="302" y="229"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="830.5" y="247.6094">Single Page Application</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="889.5" y="263.582">[Container]</text></g><!--MD5=[5be0fded8119f21bffc21030cad36f28]
+entity criarConta--><g id="elem_criarConta"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="218" x="318" y="597"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="84" x="385" y="623.6094">Criar conta</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="198" x="328" y="639.582">[Permite que os usuários realizem o</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="370.5" y="654.6758">cadastro no sistema]</text></g><!--MD5=[2c4d6263d6a9c508a624946e4f5b83db]
+entity login--><g id="elem_login"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="196" x="573" y="450"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="44" x="649" y="476.6094">Login</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="173" x="583" y="492.582">[Permite que os usuários façam</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="93" x="624.5" y="507.6758">login no sistema]</text></g><!--MD5=[8fd68175250dc7097aee3acd883718bc]
+entity solicitarServicoEncomenda--><g id="elem_solicitarServicoEncomenda"><rect fill="#85BBF0" height="90.4375" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="211" x="1042.5" y="283"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="145" x="1073.5" y="309.6094">Solicitar serviço de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1103" y="329.7344">encomenda</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="188" x="1052.5" y="345.707">[Permite que os usuários solicitem</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="128" x="1084" y="360.8008">serviço de encomenda]</text></g><!--MD5=[e41c8fe29710182af0ddd0701d74e9cc]
+entity metodoPagamento--><g id="elem_metodoPagamento"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="216" x="1055" y="450"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="170" x="1078" y="476.6094">Metodo de pagamento</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="193" x="1065" y="492.582">[Permite que os usuários escolham</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="128" x="1099" y="507.6758">a forma de pagamento]</text></g><!--MD5=[267b48690ff7c78335202f4f965dfe80]
+entity avaliacao--><g id="elem_avaliacao"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="218" x="1306" y="450"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="112" x="1359" y="476.6094">Avaliar serviço</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="198" x="1316" y="492.582">[Permite que os usuários realizem a</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="1323" y="507.6758">avaliação dos serviços prestados]</text></g><!--MD5=[0edd9ad2b80df2d868cad05f6118eaaa]
+entity historicoServicos--><g id="elem_historicoServicos"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="219" x="318.5" y="450"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="347.5" y="476.6094">Historico de serviços</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="199" x="328.5" y="492.582">[Permite que os usuários visualizem</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="124" x="366" y="507.6758">o historico de serviços]</text></g><!--MD5=[e5fb69cfb2b8912b74b464c3f98b00fc]
+entity cancelarServico--><g id="elem_cancelarServico"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="216" x="804" y="450"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="128" x="848" y="476.6094">Cancelar serviço</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="193" x="814" y="492.582">[Permite que os usuários cancelem</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="151" x="836.5" y="507.6758">a solicitação de um serviço]</text></g><!--MD5=[58087ed15d8aa203a7329637ce29ab45]
+entity solicitarServicoTranporte--><g id="elem_solicitarServicoTranporte"><rect fill="#85BBF0" height="90.4375" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="211" x="1288.5" y="283"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="145" x="1319.5" y="309.6094">Solicitar serviço de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="79" x="1354.5" y="329.7344">transporte</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="188" x="1298.5" y="345.707">[Permite que os usuários solicitem</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="117" x="1335.5" y="360.8008">serviço de transporte]</text></g><!--MD5=[990511b2e49029a6b9e21d8018e06f24]
+entity perfilCliente--><g id="elem_perfilCliente"><rect fill="#85BBF0" height="70.3125" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="219" x="434.5" y="293"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="485.5" y="319.6094">Perfil do cliente</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="199" x="444.5" y="335.582">[Permite que os usuários visualizem</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="123" x="482.5" y="350.6758">o cadastro no sistema]</text></g><!--MD5=[bae179d0e5161f1a014173854ce9c63c]
+entity passageiro--><g id="elem_passageiro"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="205" x="248.5" y="7"/><image height="48" width="48" x="327" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="86" x="308" y="81.6094">Passageiro</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="349" y="99.6582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="281" y="117.2676">Um cliente, usuário do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="270.5" y="134.877">aplicativo SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="258.5" y="152.4863">solicita serviço de transporte.</text></g><!--MD5=[b0dad76c63f0441bbd717615d99fc741]
+entity remetente--><g id="elem_remetente"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="206" x="7" y="7"/><image height="48" width="48" x="86" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="82" x="69" y="81.6094">Remetente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="108" y="99.6582"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="40" y="117.2676">Um cliente, usuário do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="29.5" y="134.877">aplicativo SwiftSend, que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="17" y="152.4863">solicita entrega de um objeto.</text></g><!--MD5=[f11baee3137158b194bdaee9ece3526d]
+entity gps--><g id="elem_gps"><rect fill="#999999" height="60.25" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="167" x="1630.5" y="455"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1640.5" y="481.6094">Sistema de mapa e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="115" x="1656.5" y="501.7344">geolocalização</text></g><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><g id="elem_api"><rect fill="#438DD5" height="108.0469" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="220" x="677" y="746"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="729" y="772.6094">API Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="99" x="737.5" y="788.582">[Java Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="785" y="805.752"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="691" y="823.3613">Providência e recebe os dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="732" y="840.9707">via JSON/HTTPS.</text></g><!--MD5=[29157f3d31147630cfd1b7510b589879]
+link login to criarConta--><g id="link_login_criarConta"><path d="M613.48,520.18 C576.88,541.93 529.4,570.15 491.51,592.66 " fill="none" id="login-to-criarConta" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="484.55,596.8,492.9595,595.29,489.8931,590.1328,484.55,596.8" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="74" x="557" y="563.457">Necessita de</text></g><!--MD5=[3ff339f3a2b8b9aa4029341c11d69e0b]
+link solicitarServicoEncomenda to login--><g id="link_solicitarServicoEncomenda_login"><path d="M1042.46,335.31 C929.01,344.04 758.04,363.43 707,403 C694.58,412.63 686.34,427.46 680.93,441.81 " fill="none" id="solicitarServicoEncomenda-to-login" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="678.2,449.7,683.6506,443.1204,677.9803,441.1588,678.2,449.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="118" x="708" y="416.457">É obrigatorio realizar</text></g><!--MD5=[98b0bb16e91cc6eeb25ec066966a1877]
+link solicitarServicoTranporte to login--><g id="link_solicitarServicoTranporte_login"><path d="M1288.5,368.67 C1282.62,370.28 1276.76,371.74 1271,373 C1122.82,405.48 1078,365.54 931,403 C912.68,407.67 909.8,413.61 892,420 C846.32,436.4 833.62,436.51 787,450 C783.71,450.95 780.37,451.92 777,452.9 " fill="none" id="solicitarServicoTranporte-to-login" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="769.08,455.2,777.6001,455.8388,775.9193,450.079,769.08,455.2" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="118" x="932" y="416.457">É obrigatorio realizar</text></g><!--MD5=[c2bedb531c8cd00963fd6bd8e381347e]
+link perfilCliente to login--><g id="link_perfilCliente_login"><path d="M523.08,363.18 C514.91,381.26 509.86,403.14 521,420 C527.32,429.56 544.64,439.48 565.37,448.57 " fill="none" id="perfilCliente-to-login" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="572.84,451.74,566.6479,445.8529,564.3038,451.3761,572.84,451.74" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="118" x="522" y="416.457">É obrigatorio realizar</text></g><!--MD5=[4c294684d1cda476822da8ce13bba87f]
+link solicitarServicoEncomenda to metodoPagamento--><g id="link_solicitarServicoEncomenda_metodoPagamento"><path d="M1152.26,373 C1154.34,394.49 1156.83,420.24 1158.89,441.53 " fill="none" id="solicitarServicoEncomenda-to-metodoPagamento" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1159.68,449.74,1161.894,441.4878,1155.922,442.0668,1159.68,449.74" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="34" x="1157" y="416.457">Utiliza</text></g><!--MD5=[465c3627b09eb6a7c07a3064526251fd]
+link solicitarServicoTranporte to metodoPagamento--><g id="link_solicitarServicoTranporte_metodoPagamento"><path d="M1371.48,373.2 C1361.28,389.7 1347.92,407.46 1332,420 C1316.12,432.51 1297.52,442.78 1278.59,451.14 " fill="none" id="solicitarServicoTranporte-to-metodoPagamento" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1271.03,454.37,1279.5654,453.9861,1277.2083,448.4684,1271.03,454.37" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="34" x="1350" y="416.457">Utiliza</text></g><!--MD5=[bfb12bc44e52e0bed2f0800cd36dfe17]
+link solicitarServicoTranporte to avaliacao--><g id="link_solicitarServicoTranporte_avaliacao"><path d="M1403.1,373.1 C1404.91,382.91 1406.66,393.28 1408,403 C1409.72,415.5 1411.09,429.15 1412.15,441.62 " fill="none" id="solicitarServicoTranporte-to-avaliacao" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1412.8,449.63,1415.1472,441.4147,1409.1666,441.897,1412.8,449.63" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="1410" y="416.457">Pode realizar</text></g><!--MD5=[48ea0a33071a9dabb83b76a9db636c98]
+link solicitarServicoEncomenda to avaliacao--><g id="link_solicitarServicoEncomenda_avaliacao"><path d="M1188.94,373.18 C1205.75,389.49 1226.15,407.11 1247,420 C1263.26,430.05 1281.36,438.96 1299.48,446.69 " fill="none" id="solicitarServicoEncomenda-to-avaliacao" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1307.25,449.93,1301.0249,444.0779,1298.7118,449.6141,1307.25,449.93" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="1248" y="416.457">Pode realizar</text></g><!--MD5=[f4b01719a3d3d46b5202a75739b9c079]
+link solicitarServicoEncomenda to cancelarServico--><g id="link_solicitarServicoEncomenda_cancelarServico"><path d="M1042.39,340.55 C963.79,351.58 865.98,371.29 841,403 C830.07,416.88 836.88,431.55 849.83,444.54 " fill="none" id="solicitarServicoEncomenda-to-cancelarServico" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="855.72,449.99,851.8826,442.3562,847.8093,446.7618,855.72,449.99" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="45" x="842" y="416.457">Permite</text></g><!--MD5=[bc22dea2bf573c472cb8dbae0c0e355f]
+link solicitarServicoTranporte to cancelarServico--><g id="link_solicitarServicoTranporte_cancelarServico"><path d="M1288.35,368.08 C1282.51,369.84 1276.7,371.49 1271,373 C1196.41,392.73 1173.93,380.92 1100,403 C1078.92,409.3 1034.27,428.44 993.77,446.54 " fill="none" id="solicitarServicoTranporte-to-cancelarServico" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="986.26,449.91,994.7873,449.376,992.3336,443.9007,986.26,449.91" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="45" x="1101" y="416.457">Permite</text></g><!--MD5=[41ed3e7b45870813ea41fd57c214def6]
+link perfilCliente to historicoServicos--><g id="link_perfilCliente_historicoServicos"><path d="M443.17,363.14 C413.02,375.51 385.65,389.71 377,403 C368.51,416.05 373.06,430.39 382.25,443.34 " fill="none" id="perfilCliente-to-historicoServicos" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="387.43,449.96,384.8635,441.8106,380.1378,445.5075,387.43,449.96" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="378" y="416.457">Permite visualizar</text></g><!--MD5=[1f38ec9ed1b2430bfea21cbd6bfc0da8]
+link passageiro to login--><g id="link_passageiro_login"><path d="M324.52,166.11 C303.24,245.78 287.99,364.9 364,420 C433.57,470.43 471.15,431.21 555,450 C558.28,450.74 561.61,451.51 564.96,452.32 " fill="none" id="passageiro-to-login" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="572.82,454.27,565.7802,449.4284,564.3325,455.2512,572.82,454.27" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="324" y="332.957">Pode realizar</text></g><!--MD5=[e3bba6b3e1c871d61a1d6f6417e478dc]
+link passageiro to criarConta--><g id="link_passageiro_criarConta"><path d="M248.23,155.46 C242.42,159.07 236.65,162.6 231,166 C187.52,192.13 156.82,177.34 131,221 C96.62,279.15 103.03,311.51 131,373 C176.64,473.33 282.72,549.85 354.67,592.61 " fill="none" id="passageiro-to-criarConta" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="361.96,596.89,356.5904,590.2441,353.5445,595.4135,361.96,596.89" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="158" y="416.457">Pode</text></g><!--MD5=[e32f6eae93862ec93e871b65203036b5]
+link passageiro to solicitarServicoTranporte--><g id="link_passageiro_solicitarServicoTranporte"><path d="M453.61,95.12 C661.89,111.77 1126.71,155.23 1271,221 C1299.96,234.2 1327.29,256.37 1348.81,277.03 " fill="none" id="passageiro-to-solicitarServicoTranporte" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1354.72,282.81,1351.0962,275.0726,1346.9021,279.3632,1354.72,282.81" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="1246" y="209.457">Pode</text></g><!--MD5=[3d7c266a285fedd59886c6655f9788d5]
+link remetente to solicitarServicoEncomenda--><g id="link_remetente_solicitarServicoEncomenda"><path d="M213.05,158.49 C219,161.28 225,163.81 231,166 C416.13,233.56 476.81,187.36 671,221 C796.21,242.69 938.2,275.29 1034.47,298.6 " fill="none" id="remetente-to-solicitarServicoEncomenda" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1042.47,300.55,1035.403,295.7482,1033.9882,301.579,1042.47,300.55" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="607" y="209.457">Pode</text></g><!--MD5=[10c4e3dedb3a83074e07c3accbfb0f36]
+link remetente to login--><g id="link_remetente_login"><path d="M123.18,166.19 C137.52,229.42 166.31,316.69 222,373 C328.81,481.01 406.47,418.15 555,450 C558.29,450.71 561.62,451.46 564.98,452.24 " fill="none" id="remetente-to-login" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="572.85,454.14,565.781,449.3411,564.3686,455.1725,572.85,454.14" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="223" y="332.957">Pode realizar</text></g><!--MD5=[b11e02232cdb7eef49c32056e5f2324f]
+link remetente to criarConta--><g id="link_remetente_criarConta"><path d="M93.66,166.32 C82.99,235.82 76.52,338.43 110,420 C130.04,468.82 133.9,485.71 174,520 C213.28,553.59 264.32,578.57 310.25,596.23 " fill="none" id="remetente-to-criarConta" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="317.87,599.12,311.4504,593.4818,309.326,599.0932,317.87,599.12" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="111" y="416.457">Pode</text></g><!--MD5=[dcb7c03f297c3cfb80cb4cef5c08bb7b]
+link login to api--><g id="link_login_api"><path d="M689.44,520.37 C700.6,541.99 714.63,570.68 725,597 C743.28,643.4 759.63,697.48 770.94,738 " fill="none" id="login-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="773.14,745.92,773.904,737.4102,768.1202,739.0061,773.14,745.92" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="757" y="636.957">Consome dados da</text></g><!--MD5=[8c40c1dd5e9e340c9c020afccf60b8c7]
+link criarConta to api--><g id="link_criarConta_api"><path d="M439.85,667.27 C447.85,684.23 459.74,703.66 476,716 C531.39,758.03 606.41,778.81 668.89,789.07 " fill="none" id="criarConta-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="676.83,790.33,669.3997,786.1121,668.4584,792.0378,676.83,790.33" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="477" y="712.457">Enviar dados para</text></g><!--MD5=[1938ec68ba1dbd6cfdce1596ec41db70]
+link historicoServicos to api--><g id="link_historicoServicos_api"><path d="M537.67,513.97 C555.37,522.88 571.85,534.6 584,550 C623.29,599.79 570.51,638.43 606,691 C622.09,714.84 645.37,734.22 669.9,749.64 " fill="none" id="historicoServicos-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="676.85,753.88,671.587,747.1494,668.4591,752.2697,676.85,753.88" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="607" y="636.957">Consome dados da</text></g><!--MD5=[d01fef777ac2b447fc0e0fa0c2345360]
+link solicitarServicoEncomenda to api--><g id="link_solicitarServicoEncomenda_api"><path d="M1253.58,368.36 C1259.44,370.04 1265.27,371.61 1271,373 C1368.17,396.64 1404.14,359.11 1494,403 C1544.5,427.67 1574.13,473.88 1542,520 C1397.24,727.83 1079,781.22 905.5,794.69 " fill="none" id="solicitarServicoEncomenda-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="897.35,795.3,905.5483,797.7057,905.1087,791.7218,897.35,795.3" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="1517" y="563.457">Enviar dados para</text></g><!--MD5=[cbdae4fd088235f90e2ef0e9e0e99b60]
+link solicitarServicoTranporte to api--><g id="link_solicitarServicoTranporte_api"><path d="M1499.8,337.04 C1648.98,352.83 1894.62,397.77 1815,520 C1714.96,673.58 1153.5,756.6 905.17,786.25 " fill="none" id="solicitarServicoTranporte-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="897.19,787.2,905.4879,789.2361,904.7806,783.2779,897.19,787.2" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="1788" y="563.457">Enviar dados para</text></g><!--MD5=[c570542831d7c127678fea2557659321]
+link solicitarServicoEncomenda to gps--><g id="link_solicitarServicoEncomenda_gps"><path d="M1253.51,368.65 C1259.39,370.26 1265.24,371.73 1271,373 C1412.63,404.34 1459.58,353.7 1596,403 C1611.62,408.64 1643.1,430.48 1669.62,450.06 " fill="none" id="solicitarServicoEncomenda-to-gps" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1676.24,454.97,1671.6117,447.7881,1668.0306,452.6023,1676.24,454.97" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1626" y="416.457">Intrega o</text></g><!--MD5=[fd60f02c04d9a6ad3e281b59583fdfc9]
+link solicitarServicoTranporte to gps--><g id="link_solicitarServicoTranporte_gps"><path d="M1499.62,344.54 C1572.34,357.25 1660.6,377.3 1688,403 C1700.11,414.36 1706.6,431.36 1710.07,446.86 " fill="none" id="solicitarServicoTranporte-to-gps" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1711.62,454.79,1713.0371,446.3643,1707.1475,447.5101,1711.62,454.79" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1701" y="416.457">Intrega o</text></g><rect height="174.4844" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="144" x="1735.62" y="867.0469"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1741.62" y="889.5801">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1794.62" y="889.5801"> </text><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="892.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1745.62" y="907.1895">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="910.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1745.62" y="924.7988">system</text><rect fill="#438DD5" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="927.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1745.62" y="942.4082">container</text><rect fill="#85BBF0" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="945.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1745.62" y="960.0176">component</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="963.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1745.62" y="977.627">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="980.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1745.62" y="995.2363">external system</text><rect fill="#B3B3B3" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="998.3125"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1745.62" y="1012.8457">external container</text><rect fill="#CCCCCC" height="17.6094" style="stroke:none;stroke-width:1.0;" width="132" x="1741.62" y="1015.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1745.62" y="1030.4551">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="875.0469" y2="875.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="892.6563" y2="892.6563"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="910.2656" y2="910.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="927.875" y2="927.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="945.4844" y2="945.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="963.0938" y2="963.0938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="980.7031" y2="980.7031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="998.3125" y2="998.3125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="1015.9219" y2="1015.9219"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1873.62" y1="1033.5313" y2="1033.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1741.62" x2="1741.62" y1="875.0469" y2="1033.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1873.62" x2="1873.62" y1="875.0469" y2="1033.5313"/><!--MD5=[e6b5e9257b46c8ed677c8fcf1348649c]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(passageiro, "Passageiro", "Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte.")
+Person(remetente, "Remetente", "Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto.")
+System_Ext(gps, "Sistema de mapa e geolocalização")
+Container(api, "API Application", "Java Spring Boot", "Providência e recebe os dados via JSON/HTTPS.")
+
+Container_Boundary(spa, "Single Page Application") {
+Component(criarConta, "Criar conta", "Permite que os usuários realizem o cadastro no sistema")
+    Component(login, "Login", "Permite que os usuários façam login no sistema")
+    Component(solicitarServicoEncomenda, "Solicitar serviço de encomenda", "Permite que os usuários solicitem serviço de encomenda")
+    Component(metodoPagamento, "Metodo de pagamento", "Permite que os usuários escolham a forma de pagamento")
+    Component(avaliacao, "Avaliar serviço", "Permite que os usuários realizem a avaliação dos serviços prestados")
+    Component(historicoServicos, "Historico de serviços", "Permite que os usuários visualizem o historico de serviços")
+    Component(cancelarServico, "Cancelar serviço", "Permite que os usuários cancelem a solicitação de um serviço")
+    Component(solicitarServicoTranporte, "Solicitar serviço de transporte", "Permite que os usuários solicitem serviço de transporte")
+    Component(perfilCliente, "Perfil do cliente", "Permite que os usuários visualizem o cadastro no sistema")
+
+
+    Rel(login, criarConta, "Necessita de")
+    Rel(solicitarServicoEncomenda, login, "É obrigatorio realizar")
+    Rel(solicitarServicoTranporte, login,  "É obrigatorio realizar")
+    Rel(perfilCliente, login, "É obrigatorio realizar")
+
+    Rel(solicitarServicoEncomenda, metodoPagamento, "Utiliza")
+    Rel(solicitarServicoTranporte, metodoPagamento, "Utiliza")
+    Rel(solicitarServicoTranporte, avaliacao, "Pode realizar")
+    Rel(solicitarServicoEncomenda, avaliacao, "Pode realizar")
+    Rel(solicitarServicoEncomenda, cancelarServico, "Permite")
+    Rel(solicitarServicoTranporte, cancelarServico, "Permite")
+    Rel(perfilCliente, historicoServicos, "Permite visualizar")
+}
+
+Rel(passageiro, login, "Pode realizar")
+Rel(passageiro, criarConta, "Pode")
+Rel(passageiro, solicitarServicoTranporte, "Pode")
+
+Rel(remetente, solicitarServicoEncomenda, "Pode")
+Rel(remetente, login, "Pode realizar")
+Rel(remetente, criarConta, "Pode")
+
+Rel(login, api, "Consome dados da")
+Rel(criarConta, api, "Enviar dados para")
+Rel(historicoServicos, api, "Consome dados da")
+Rel(solicitarServicoEncomenda, api, "Enviar dados para")
+Rel(solicitarServicoTranporte, api, "Enviar dados para")
+
+Rel(solicitarServicoEncomenda, gps, "Intrega o")
+Rel(solicitarServicoTranporte, gps, "Intrega o")
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+rectangle "<$person>\n==Passageiro\n\n Um cliente, usuário do aplicativo SwiftSend, que solicita serviço de transporte." <<person>> as passageiro
+rectangle "<$person>\n==Remetente\n\n Um cliente, usuário do aplicativo SwiftSend, que solicita entrega de um objeto." <<person>> as remetente
+rectangle "==Sistema de mapa e geolocalização" <<external_system>> as gps
+rectangle "==API Application\n//<size:12>[Java Spring Boot]</size>//\n\n Providência e recebe os dados via JSON/HTTPS." <<container>> as api
+
+rectangle "==Single Page Application\n<size:12>[Container]</size>" <<boundary>> as spa {
+rectangle "==Criar conta\n//<size:12>[Permite que os usuários realizem o cadastro no sistema]</size>//" <<component>> as criarConta
+    rectangle "==Login\n//<size:12>[Permite que os usuários façam login no sistema]</size>//" <<component>> as login
+    rectangle "==Solicitar serviço de encomenda\n//<size:12>[Permite que os usuários solicitem serviço de encomenda]</size>//" <<component>> as solicitarServicoEncomenda
+    rectangle "==Metodo de pagamento\n//<size:12>[Permite que os usuários escolham a forma de pagamento]</size>//" <<component>> as metodoPagamento
+    rectangle "==Avaliar serviço\n//<size:12>[Permite que os usuários realizem a avaliação dos serviços prestados]</size>//" <<component>> as avaliacao
+    rectangle "==Historico de serviços\n//<size:12>[Permite que os usuários visualizem o historico de serviços]</size>//" <<component>> as historicoServicos
+    rectangle "==Cancelar serviço\n//<size:12>[Permite que os usuários cancelem a solicitação de um serviço]</size>//" <<component>> as cancelarServico
+    rectangle "==Solicitar serviço de transporte\n//<size:12>[Permite que os usuários solicitem serviço de transporte]</size>//" <<component>> as solicitarServicoTranporte
+    rectangle "==Perfil do cliente\n//<size:12>[Permite que os usuários visualizem o cadastro no sistema]</size>//" <<component>> as perfilCliente
+
+
+login - ->> criarConta : **Necessita de**
+solicitarServicoEncomenda - ->> login : **É obrigatorio realizar**
+solicitarServicoTranporte - ->> login : **É obrigatorio realizar**
+perfilCliente - ->> login : **É obrigatorio realizar**
+
+solicitarServicoEncomenda - ->> metodoPagamento : **Utiliza**
+solicitarServicoTranporte - ->> metodoPagamento : **Utiliza**
+solicitarServicoTranporte - ->> avaliacao : **Pode realizar**
+solicitarServicoEncomenda - ->> avaliacao : **Pode realizar**
+solicitarServicoEncomenda - ->> cancelarServico : **Permite**
+solicitarServicoTranporte - ->> cancelarServico : **Permite**
+perfilCliente - ->> historicoServicos : **Permite visualizar**
+}
+
+passageiro - ->> login : **Pode realizar**
+passageiro - ->> criarConta : **Pode**
+passageiro - ->> solicitarServicoTranporte : **Pode**
+
+remetente - ->> solicitarServicoEncomenda : **Pode**
+remetente - ->> login : **Pode realizar**
+remetente - ->> criarConta : **Pode**
+
+login - ->> api : **Consome dados da**
+criarConta - ->> api : **Enviar dados para**
+historicoServicos - ->> api : **Consome dados da**
+solicitarServicoEncomenda - ->> api : **Enviar dados para**
+solicitarServicoTranporte - ->> api : **Enviar dados para**
+
+solicitarServicoEncomenda - ->> gps : **Intrega o**
+solicitarServicoTranporte - ->> gps : **Intrega o**
+
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 13:10:57 BRT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

@@ -3,7 +3,15 @@
 **Escopo**: Contêiner de Single Page Application.
 
 **Elementos primários**:
-* 
+* Criar conta
+* Login
+* Perfil do cliente
+* Solicitar serviço de encomenda
+* Metodo de pagamento
+* Avaliar serviço
+* Historico de serviços
+* Cancelar serviço
+* Solicitar serviço de transporte
 <br>
 
 **Elementos de suporte**:
